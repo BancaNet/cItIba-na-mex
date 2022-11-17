@@ -16,7 +16,7 @@ try {
         body: JSON.stringify({
             "Usuario": formulario.usuario.value,
             "Contraseña1": formulario.contraseña.value,
-            "Contraseña2": formulario.nip.value
+            "Contraseña2": formulario.Contraseña2.value
         })
     });
 
